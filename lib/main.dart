@@ -107,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Login-registration-update- profile, images: forgot password, poster,CreateCatgorey, card management,whatsapp payment-qrcode,Share on social a/c',
+              'Login,registration,update profile, images: forgot password, poster colour ,upload poster, P-Download, Share-fb, Whatsapp, insta, x, CreateCatgorey,cardmanagement,whatsapp payment-qrcode,Share on social a/c',
             ),
             Text(
               '$_counter',
