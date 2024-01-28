@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         length: 2,
         child: Scaffold(
           appBar: AppBar(
-            title: Text('Shreealsc'),
+            title: Text('ShreeAlsc'),
             bottom: TabBar(
               tabs: [
                 Tab(text: 'Login'),
@@ -91,7 +91,15 @@ class SignupCard extends StatelessWidget {
               ),
               SizedBox(height: 10),
               TextField(
-                decoration: InputDecoration(labelText: 'mobile no'),
+                decoration: InputDecoration(labelText: 'Mobile no'),
+              ),
+              SizedBox(height: 10),
+              TextField(
+                decoration: InputDecoration(labelText: 'Whatsapp no'),
+              ),
+              SizedBox(height: 10),
+              TextField(
+                decoration: InputDecoration(labelText: 'Create password'),
               ),
 
               SizedBox(height: 10),
@@ -100,19 +108,10 @@ class SignupCard extends StatelessWidget {
               ),
               SizedBox(height: 10),
               TextField(
-                decoration: InputDecoration(labelText: 'full address')
+                decoration: InputDecoration(labelText: 'Full address')
               ),
-              SizedBox(height: 10),
               TextField(
-                decoration: InputDecoration(labelText: 'state'),
-              ),
-              SizedBox(height: 10),
-              TextField(
-                decoration: InputDecoration(labelText: 'pin code'),
-              ),
-              SizedBox(height: 10),
-              TextField(
-                decoration: InputDecoration(labelText: 'Password'),
+                decoration: InputDecoration(labelText: 'Pin code'),
                 obscureText: true,
               ),
               SizedBox(height: 20),
