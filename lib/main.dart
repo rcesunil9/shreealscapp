@@ -16,11 +16,12 @@ class MyApp extends StatelessWidget {
         length: 2,
         child: Scaffold(
           appBar: AppBar(
-            title: Text('Login & Signup'),
+            title: Text('Shreealsc'),
             bottom: TabBar(
               tabs: [
                 Tab(text: 'Login'),
                 Tab(text: 'Signup'),
+                Tab(text: 'dashbord'),
               ],
             ),
           ),
@@ -87,6 +88,27 @@ class SignupCard extends StatelessWidget {
               SizedBox(height: 10),
               TextField(
                 decoration: InputDecoration(labelText: 'Email'),
+              ),
+              SizedBox(height: 10),
+              TextField(
+                decoration: InputDecoration(labelText: 'mobile no'),
+              ),
+
+              SizedBox(height: 10),
+              TextField(
+                decoration: InputDecoration(labelText: 'Branch code'),
+              ),
+              SizedBox(height: 10),
+              TextField(
+                decoration: InputDecoration(labelText: 'full address')
+              ),
+              SizedBox(height: 10),
+              TextField(
+                decoration: InputDecoration(labelText: 'state'),
+              ),
+              SizedBox(height: 10),
+              TextField(
+                decoration: InputDecoration(labelText: 'pin code'),
               ),
               SizedBox(height: 10),
               TextField(
