@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(
-        length: 2,
+        length: 3,
         child: Scaffold(
           appBar: AppBar(
             title: Text('ShreeAlsc'),
@@ -87,6 +87,10 @@ class SignupCard extends StatelessWidget {
               ),
               SizedBox(height: 10),
               TextField(
+                  decoration: InputDecoration(labelText: 'Designation')
+              ),
+              SizedBox(height: 10),
+              TextField(
                 decoration: InputDecoration(labelText: 'Email'),
               ),
               SizedBox(height: 10),
@@ -106,12 +110,8 @@ class SignupCard extends StatelessWidget {
               TextField(
                 decoration: InputDecoration(labelText: 'Branch code'),
               ),
-              SizedBox(height: 10),
               TextField(
-                decoration: InputDecoration(labelText: 'Full address')
-              ),
-              TextField(
-                decoration: InputDecoration(labelText: 'Pin code'),
+                decoration: InputDecoration(labelText: 'Agency codes '),
                 obscureText: true,
               ),
               SizedBox(height: 20),
@@ -120,6 +120,7 @@ class SignupCard extends StatelessWidget {
                   // Handle signup logic here
                 },
                 child: Text('Signup'),
+
               ),
             ],
           ),
